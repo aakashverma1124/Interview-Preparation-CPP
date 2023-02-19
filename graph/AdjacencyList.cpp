@@ -4,7 +4,7 @@ using namespace std;
 class AdjacencyList {
 public:
     static vector<vector<int>> buildGraph(int v, vector<vector<int>> edges) {
-        vector<vector<int>> graph;
+        vector<vector<int>>  graph;
         for(int i = 0; i <= v; i++) {
             vector<int> v;
             graph.push_back(v);
